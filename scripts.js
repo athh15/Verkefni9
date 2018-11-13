@@ -42,7 +42,7 @@ const program = (() => {
       registrantname,
       email,
       address,
-      country
+      country,
     }] = dom;
 
     const dl = document.createElement('dl');
@@ -123,7 +123,6 @@ const program = (() => {
 
     const form = domains.querySelector('form');
     form.addEventListener('submit', onSubmit);
-
   }
   return {
     init,
